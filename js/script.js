@@ -8,7 +8,7 @@ async function fetchImageUrl(username, imageSize, imageFormat, circular) {
 	return new Promise((resolve, reject) => {
 
 	const config = {
-		url: `https://api.valiantwind.dev/v1/roblox/get-avatar-body-thumbnail?username=${username.value}&size=${imageSize.value}&format=${imageFormat.value}&isCircular=${circular.value}`,
+		url: `https://api.valiantwind.dev/v1/roblox/avatar-headshot?username=${username.value}&size=${imageSize.value}&format=${imageFormat.value}&isCircular=${circular.value}`,
 		method: 'get',
 	}
 		axios(config).then(response => {
