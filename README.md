@@ -1,7 +1,5 @@
-# Roblox-Thumbnail-Viewer
+# Avatar to Headshot
 
-View the Avatar Thumbnail of Any Roblox User.
+View the Avatar Headshot Thumbnail of Any Roblox User.
 
-Website:
-
-https://ValiantWind.github.io/RATV
+==Second==
